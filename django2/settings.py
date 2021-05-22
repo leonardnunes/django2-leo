@@ -133,7 +133,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Devemos configurar todos os projetos com essas 4 variáveis.
-MEDIA_URL = 'media/'                                 # STATIC_URL, STATIC_ROOT, MEDIA_URL E MEDIA_ROOT.
+MEDIA_URL = '/media/'                                 # STATIC_URL, STATIC_ROOT, MEDIA_URL E MEDIA_ROOT.
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 #  Configurações de e-mail
