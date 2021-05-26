@@ -8,7 +8,7 @@ from django.template.defaultfilters import slugify
 
 class Base(models.Model):
     criado = models.DateField('Data de Criação', auto_now_add=True)
-    modificado = models.DateField('Data de atualização', auto_now= True)
+    modificado = models.DateField('Data de atualização', auto_now=True)
     ativo = models.BooleanField('ativo', default=True)
 
     class Meta:
